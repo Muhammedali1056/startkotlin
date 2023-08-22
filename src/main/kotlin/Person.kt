@@ -1,7 +1,7 @@
 class Person{
-    var height: Int = 174
-    val weight: Float = 61.6F
-    var name: String = "Muhammed"
+    private var height: Int = 174
+    private val weight: Float = 61.6F
+    private var name: String = "Muhammed"
 
     fun run(){
         println("im running")
